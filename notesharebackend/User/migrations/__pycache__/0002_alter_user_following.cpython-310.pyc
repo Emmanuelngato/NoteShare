@@ -1,0 +1,9 @@
+o
+
+    ÿ=VfÏ  ã                   @   s2   d dl mZ d dlm Z mZ G d d„ de jƒ ZdS )é    )Úsettings)Ú
+migrationsÚmodelsc                   @   s2   e Zd ZdgZ ejdd ejddej	d d gZ
+dS )	Ú	Migration)ÚUserÚ0001_initialÚuserÚ	followingTÚ	followers) ÚnullÚrelated_nameÚto) Ú
+model_nameÚnameÚfieldN)Ú__name__Ú
+__module__Ú__qualname__Údependenciesr    Ú
+AlterFieldr   ÚManyToManyFieldr   ÚAUTH_USER_MODELÚ
+operations© r   r   úS/home/nyams/NoteShare/notesharebackend/User/migrations/0002_alter_user_following.pyr      s     ÿýÿr   N)Údjango.confr   Ú	django.dbr    r   r   r   r   r   r    Ú<module>   s    

@@ -1,0 +1,15 @@
+o
+
+    =ƒOf™  ã                   @   s0   d Z ddlZdd lm Z  ej dd¡ e ƒ ZdS )zà
+WSGI config for notesharebackend project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/5.0/howto/deployment/wsgi/
+é    N)Úget_wsgi_applicationÚDJANGO_SETTINGS_MODULEznotesharebackend.settings)Ú__doc__ÚosÚdjango.core.wsgir   ÚenvironÚ
+setdefaultÚapplication© r
+   r
+   ú?/home/nyams/NoteShare/notesharebackend/notesharebackend/wsgi.pyÚ<module>   s
+    	
+

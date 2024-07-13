@@ -1,0 +1,16 @@
+nx_likes_port_80   alx-higher_level_programming   old_school
+1                       alx-system_engineering-devops  README.md
+1-debugging_made_short  empty_directory                ready_to_be_removed
+1-user_limit.pp         Fix_My_Code_Challenge          school
+AirBnB_clone_v2         lb-01                          web-01
+AirBnB_clone_v3         NoteShare                      web-02
+AirBnB_clone_v4         not_here
+root@9c1d014d73df:~# cd NoteShare
+root@9c1d014d73df:~/NoteShare# ls
+README.md
+root@9c1d014d73df:~/NoteShare# mkdir noteshare-frontend
+root@9c1d014d73df:~/NoteShare# cd noteshare-frontend
+root@9c1d014d73df:~/NoteShare/noteshare-frontend# mkdir public
+root@9c1d014d73df:~/NoteShare/noteshare-frontend# cd public
+root@9c1d014d73df:~/NoteShare/noteshare-frontend/public# vi
+

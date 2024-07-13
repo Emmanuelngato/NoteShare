@@ -1,0 +1,24 @@
+o
+
+    ÿ=VfÈ  ã                   @   sJ   d dl Zd dlZd dl Zd dlmZ d d lmZmZ G dd„ dej	ƒ Z	dS )é    N)Úsettings)Ú
+migrationsÚmodelsc                   @   sd  e Zd ZdZ dgZejd dejdddddfdej	d	dd
+fdej
+dddd
+ fdejdddd fdej	ddidddej
+jj ¡ gddfdej	dddd  fdej	ddd d  fdejdddd  fd ejdd!d"d fd#ejdd$d%d fd&ej
+ejjjd'd(fd)ejd*ejd+fd,ejdd-d.d/d0d,d1fd2ejdd3d.d/d4d5d1fgd/d6dd7œ d8ej
+jj ¡ fgd9gZd:S );Ú	MigrationT)ÚauthÚ%0012_alter_user_first_name_max_lengthÚUserÚidFÚID)Úauto_createdÚprimary_keyÚ	serializeÚverbose_nameÚpasswordé€   )Ú
+max_lengthr   Ú
+last_loginz
+last login) ÚblankÚnullr   Úis_superuserzPDesignates that this user has all permissions without explicitly assigning them.zsuperuser status) ÚdefaultÚ	help_textr   ÚusernameÚuniquez)A user with that username already exists.zFRequired. 150 characters or fewer. Letters, digits and @/./+/-/_ only.é–   )Úerror_messagesr   r   r   Ú
+validatorsr   Ú
+first_namez
+first name) r   r   r   Ú	last_namez	last nameÚemailéþ   z
+email addressÚis_staffz9Designates whether the user can log into this admin site.zstaff statusÚ	is_activezeDesignates whether this user should be treated as active. Unselect this instead of deleting accounts.ÚactiveÚdate_joinedzdate joined)r   r   Ú	followingÚ	followers)Úrelated_nameÚtoÚgroupszaThe groups this user belongs to. A user will get all permissions granted to each of their groups.Úuser_setÚuserz
+auth.group)r   r   r'   Úrelated_query_namer(   r   Úuser_permissionsz#Specific permissions for this user.zauth.permissionzuser permissionsÚusers) r   Úverbose_name_pluralÚabstractÚobjects)ÚnameÚfieldsÚoptionsÚmanagersN) Ú__name__Ú
+__module__Ú__qualname__ÚinitialÚdependenciesr    ÚCreateModelr   ÚBigAutoFieldÚ	CharFieldÚ
+DateTimeFieldÚBooleanFieldÚdjangoÚcontribr   r    ÚUnicodeUsernameValidatorÚ
+EmailFieldÚutilsÚtimezoneÚ nowÚManyToManyFieldr   ÚAUTH_USER_MODELÚUserManagerÚ
+operations© rK   rK   úF/home/nyams/NoteShare/notesharebackend/User/migrations/0001_initial.pyr   
+   s:     ÿ(òýÿéÿr   )
+Ú django.contrib.auth.modelsr@   Údjango.contrib.auth.validatorsÚdjango.utils.timezoneÚdjango.confr   Ú	django.dbr    r   r   rK   rK   rK   rL   Ú<module>   s    

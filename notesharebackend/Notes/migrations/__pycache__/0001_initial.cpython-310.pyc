@@ -1,0 +1,14 @@
+o
+
+    ÿ=VfË  ã                   @   s&   d dl mZmZ G dd „ d ej ƒ Z dS )é    )Ú
+migrationsÚmodelsc                   @   sv   e Zd ZdZ g Zejdd ejdddfdej	ddfd	e 
+¡ fd
+ejddfdejdd
+fdejddfgdgZ
+dS )Ú	MigrationTÚNoteÚnote_idF)Úprimary_keyÚ	serializeÚtitleéÿ   )Ú
+max_lengthÚcontentÚdate_created)Úauto_now_addÚ
+date_modified)Úauto_nowÚ	is_public)Údefault)ÚnameÚfieldsN)Ú__name__Ú
+__module__Ú__qualname__ÚinitialÚdependenciesr   ÚCreateModelr    Ú	AutoFieldÚ	CharFieldÚ	TextFieldÚ
+DateTimeFieldÚBooleanFieldÚ
+operations© r!   r!   úG/home/nyams/NoteShare/notesharebackend/Notes/migrations/0001_initial.pyr      s     
+úþÿr   N)Ú	django.dbr   r    r   r!   r!   r!   r"   Ú<module>   s    
